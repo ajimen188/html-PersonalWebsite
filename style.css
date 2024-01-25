@@ -1,0 +1,87 @@
+body{
+    background-color: #9A3B3B;
+    text-align: center;
+    color: #F2ECBE;
+
+
+}
+.Spartan{
+    border-radius: 50%;
+   
+	
+}
+.Assasin{
+    position:block;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.title-text{
+    font-size: xx-large;
+    font-family:american typewriter;
+}
+.Bottom-text{
+    margin-top: 80px;
+    font-size:x-large;
+    font-family: cursive;
+    font-weight: bolder;
+}
+.skills{
+    display:flex;
+
+}
+.Contact-Me{
+    margin-top: 60px;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.Abraham{
+    border-radius: 10%;
+}
+#Boxer{
+    border-radius: 50%;
+}
+#Investment{
+    border-radius: 50%;
+}
+.bottom-container{
+    background-color: #F2ECBE;
+	height: 10vh;
+   color: #9A3B3B;
+}
+a{color: #9A3B3B;}
+button{
+    background-color:#F2ECBE;
+    color: #9A3B3B;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.Quote{
+    margin:auto;
+    background-color: #F2ECBE;
+    color: #9A3B3B;
+    width: 500px;
+
+}
+@media only screen and (min-width: 600px) and (max-width:800px) {
+    body{width: 100%;
+    }
+    .skills{display: inline;}
+    .Quote{display: inline;
+    width:auto;
+    margin:auto;}
+}
+@media only screen and (max-width: 700px) {
+    body{width: 100%;
+    }
+    .skills{display: inline;}
+    .Quote{display: inline;
+    width:auto;
+    margin:auto;}
+}
+    
+
+
+
